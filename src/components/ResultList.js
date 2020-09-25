@@ -19,6 +19,7 @@ import React from "react";
             <tbody>
               {results.map(results => (
                 <tr key={results.name}>
+                    <td>{results.name}</td>
                   <td>{results.gender}</td>
                   <td>{results.email}</td>
                   <td>{results.phone}</td>
