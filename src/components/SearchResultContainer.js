@@ -1,13 +1,20 @@
 import React, { Component } from "react";
 import SearchForm from "./SearchForm";
-import ResultList from "./ResultList";
+import ResultList from "./resultsList/ResultList";
 import API from "../utils/API";
 
 class SearchResultContainer extends Component {
-  state = {
-    search: "",
-    results: []
-  };
+    constructor(props) {
+        super();
+        this.state = {
+            search: "",
+            results: []
+          };
+          this.searchEmp = this.searchEmp.bind(this);
+          this.handleFormSubmit = this.handleFormSubmit.bind(this);
+          this.handleInputChange = this.handleInputChange.bind(this);
+    }
+  
 
   // When this component mounts, search the Giphy API for pictures of kittens
   componentDidMount() {
@@ -20,9 +27,10 @@ class SearchResultContainer extends Component {
       this.setState({ results: res.data.results })
       )
       .catch(err => console.log(err));
+      
   };
 
-  handleInputChange = event => {
+  handleInputChange = (event) => {
     const name = event.target.name;
     const value = event.target.value;
     this.setState({
