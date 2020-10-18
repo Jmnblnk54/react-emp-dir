@@ -3,9 +3,9 @@ import React from "react";
 function Header() {
   return (
     <div className="header">
-      <h1>Employee Directory</h1>
+      <h1>React Employee Directory</h1>
       <p>
-        Use the Search Area to Find the Employee You're Looking For
+        Search for a specific Employee
       </p>
     </div>
   );

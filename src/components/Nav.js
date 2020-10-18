@@ -4,7 +4,7 @@ import NameSearch from "./NameSearch";
 function Nav() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <button
+      {/* <button
         className="navbar-toggler"
         type="button"
         data-toggle="collapse"
@@ -14,7 +14,7 @@ function Nav() {
         aria-label="Toggle navigation"
       >
         <span className="navbar-toggler-icon" />
-      </button>
+      </button> */}
       <div className="collapse navbar-collapse row" id="navbarNav">
                 <div className="search-area col-4">
           <NameSearch />

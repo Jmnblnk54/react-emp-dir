@@ -1,53 +1,55 @@
-# Unit 19 React Homework: Employee Directory
+# React Employee Directory
+    
+## Description: 
 
-## Overview
+The task was to create an app that pulls in a list of 20 random people as employees and render a table with their photo, name, gender and some contact information and make it searchable.
+  
+    
+## Table of Contents: 
 
-For this assignment, you'll create a employee directory with React. This assignment will require you to break up your application's UI into components, manage component state, and respond to user events.
+* [License](#license)
+* [Installation](#installation)
+* [Tests](#tests)
+* [Usage](#usage)
+* [Technology Used](#technology-used)
+* [Contributing](#contributing)
+* [Questions](#questions)
+* [Link](#link)
+* [Image](#image)
 
-## User Story
+    
+## Installation: 
 
-* As a user, I want to be able to view my entire employee directory at once so that I have quick access to their information.
+Use NPM install
+    
+## Usage: 
+    
+This app can be used to list and filter employees by name.
 
-## Business Context
+## Technology Used: 
+    
+Technologies used in this application: React, Javascript, HTML5, CSS3, API, Node, Express.
+    
+## License: 
+    
+This project is licensed as: Joshua Blank Approved
+    
+## Contributing: 
 
-An employee or manager would benefit greatly from being able to view non-sensitive data about other employees. It would be particularly helpful to be able to filter employees by name.
+There are no special requirements for using this repo.
+    
+## Tests: 
 
-## Acceptance Criteria
+Be sure to run the following test(s): None
+    
+## Questions: 
+    
+If you have any questions, please reach out to [Joshua Blank](https://github.com/Jmnblnk54) @ jmnblnk@yahoo.com.
 
-Given a table of random users, when the user loads the page, a table of employees should render. 
+## Link: 
 
-The user should be able to:
+https://Jmnblnk54/react-emp-dir
 
-  * Sort the table by at least one category
+## Image:
 
-  * Filter the users by at least one property.
-
-## Commit Early and Often
-
-One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
-
-1. Your commit history is a signal to employers that you are actively working on projects and learning new skills
-
-2. Your commit history allows you to revert your code base in the event that you need to return to a previous state
-
-Follow these guidelines for committing:
-
-* Make single purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits
-
-* Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history
-
-* Don't commit half done work, for the sake of your collaborators (and your future self!)
-
-* Test your application before you commit to ensure functionality at every step in the development process
-
-We would like you to have well over 200 commits by graduation, so commit early and often!
-
-
-## Submission on BCS
-
-You are required to submit the following:
-
-* the URL to the deployed application
-
-* the URL to the Github repository
-
+![ScreenShot](./public/assets/appScreenShot.jpg)
